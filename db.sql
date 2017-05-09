@@ -118,7 +118,7 @@ CREATE TABLE `user` (
   UNIQUE KEY `port` (`port`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `user` (`id`, `user_name`, `email`, `pass`, `passwd`, `t`, `u`, `d`, `transfer_enable`, `port`, `protocol`, `obfs`, `switch`, `enable`, `type`, `last_get_gift_time`, `last_check_in_time`, `last_rest_pass_time`, `reg_date`, `invite_num`, `is_admin`, `ref_by`, `expire_time`, `method`, `is_email_verify`, `reg_ip`) VALUES (NULL, 'admin', 'ss@feiyang.li', '1df12b89382d330af2831ca16d6d5302', '3yUaDj', '0', '0', '0', '2147483648', '1025', 'origin', 'plain', '1', '1', '1', '0', '0', '0', '2017-05-09 16:01:43', '5', '1', '0', '0', 'rc4-md5', '0', '127.0.0.1')
+INSERT INTO `user` (`id`, `user_name`, `email`, `pass`, `passwd`, `t`, `u`, `d`, `transfer_enable`, `port`, `protocol`, `obfs`, `switch`, `enable`, `type`, `last_get_gift_time`, `last_check_in_time`, `last_rest_pass_time`, `reg_date`, `invite_num`, `is_admin`, `ref_by`, `expire_time`, `method`, `is_email_verify`, `reg_ip`) VALUES (NULL, 'admin', 'ss@feiyang.li', '1df12b89382d330af2831ca16d6d5302', '3yUaDj', '0', '0', '0', '2147483648', '1025', 'origin', 'plain', '1', '1', '1', '0', '0', '0', '2017-05-09 16:01:43', '5', '1', '0', '0', 'rc4-md5', '0', '127.0.0.1');
 
 DROP TABLE IF EXISTS `user_token`;
 CREATE TABLE `user_token` (
