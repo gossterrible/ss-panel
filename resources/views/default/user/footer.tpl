@@ -6,10 +6,9 @@
         Made with Love
     </div>
     <strong>Copyright &copy; {date("Y")} <a href="#">{$config['appName']}</a> </strong>
-    All rights reserved. Powered by <b>ss-panel</b> {$config['version']} | <a href="https://github.com/mmmwhy/ss-panel-and-ss-py-mu">本网站使用ss-panel一键脚本搭建</a>
+    All rights reserved. Powered by <b>ss-panel</b> {$config['version']} | <a href="https://github.com/mmmwhy/ss-panel-and-ss-py-mu" target="_blank">本网站使用ss-panel一键脚本搭建</a>
 </footer>
 </div><!-- ./wrapper -->
-
 
 <!-- Bootstrap 3.3.2 JS -->
 <script src="/assets/public/js/bootstrap.min.js" type="text/javascript"></script>
