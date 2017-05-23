@@ -94,7 +94,7 @@ CREATE TABLE `user` (
   `passwd` varchar(16) NOT NULL,
   `t` int(11) NOT NULL DEFAULT '0',
   `u` bigint(20) NOT NULL,
-  `d` bigint(20) NOT NULL,
+  `d` float(20) NOT NULL,
   `transfer_enable` bigint(20) NOT NULL,
   `port` int(11) NOT NULL,
   `protocol` varchar(32) NOT NULL DEFAULT 'origin',
