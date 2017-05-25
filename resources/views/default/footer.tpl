@@ -30,7 +30,7 @@
 	</div>
 	<div class="footer-copyright">
 		<div class="container">
-			&copy; {$config["appName"]}  Powered by <a class="orange-text text-lighten-3" href="https://github.com/orvice/ss-panel">ss-panel</a> {$config["version"]}
+			&copy; {$config["appName"]}  Powered by <a class="orange-text text-lighten-3" href="http://feiyang.li/2017/05/09/ss-shell/index.html">ss-panel一键脚本</a> and ss-panel{$config["version"]}
 		 Theme by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
 		</div>
 		<div style="display:none;">
