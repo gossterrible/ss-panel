@@ -1,9 +1,11 @@
 <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-        Made with Love
+    <div align="center">
+        {$userFooter}
     </div>
-    <strong>Copyright &copy; {date("Y")} <a href="#">{$config['appName']}</a> </strong>
-    All rights reserved. Powered by <b>ss-panel</b> {$config['version']} | <a href="/tos">服务条款 </a>
+    <div class="pull-right hidden-xs">
+        Made with <a href="https://github.com/mmmwhy/ss-panel-and-ss-py-mu" target="_blank">ss-panel一键脚本</a>
+    </div>
+    <center>愿每个人都能被这个世界温柔对待</center>
 </footer>
 </div><!-- ./wrapper -->
 
