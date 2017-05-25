@@ -40,3 +40,4 @@
     </div>
     <br>
 </div>
+{include file='footer.tpl'}
