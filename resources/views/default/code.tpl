@@ -3,7 +3,8 @@
     <div class="container">
         <br><br>
         <div class="row center">
-            <h5>邀请码实时刷新</h5>
+            <h5>Invitation codes are refreshed in real time
+If you encounter any problem using an invitation code to register an account please contact us.</h5>
             {$msg}
         </div>
     </div>
@@ -14,14 +15,14 @@
         <!--   Icon Section   -->
         <div class="row">
             <div class="row marketing">
-                <h2 class="sub-header">邀请码</h2>
+                <h2 class="sub-header">Invitation Code</h2>
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
                         <tr>
                             <th>###</th>
-                            <th>邀请码 (点击邀请码进入注册页面)</th>
-                            <th>状态</th>
+                            <th>Invitation code (click the invitation code to enter the registration page)</th>
+                            <th>Status</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -29,7 +30,7 @@
                             <tr>
                                 <td>{$code->id}</td>
                                 <td><a href="/auth/register?code={$code->code}">{$code->code}</a></td>
-                                <td>可用</td>
+                                <td>Available</td>
                             </tr>
                         {/foreach}
                         </tbody>
