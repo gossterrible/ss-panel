@@ -9,11 +9,11 @@
         <br><br>
         {if $user->isLogin}
             <div class="row center">
-                <a href="/user" id="download-button" class="btn-large waves-effect waves-light orange">进入用户中心</a>
+                <a href="/user" id="download-button" class="btn-large waves-effect waves-light orange">Login</a>
             </div>
         {else}
         <div class="row center">
-            <a href="/auth/register" id="download-button" class="btn-large waves-effect waves-light orange">立即注册</a>
+            <a href="/auth/register" id="download-button" class="btn-large waves-effect waves-light orange">Register</a>
         </div>
         <br><br>
         <br><br>
