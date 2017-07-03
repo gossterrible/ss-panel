@@ -27,7 +27,7 @@
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-            <li><a href="/">首页</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="https://campvpn.space/download.php">Download</a></li>
             <li><a href="/code">Invitation Code</a></li>
             {if $user->isLogin}
