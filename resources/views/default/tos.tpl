@@ -16,7 +16,6 @@
 
     <h3>Terms of Service</h3>
     <p>
-    <h4>In using our Services, you agree not to:</h4>
         <ul>
             <li>Prohibit the use of this site services for any illegal activities.</li>
             <li>Do not abuse the services provided by this site.</li>
